@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,700&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #f9f9f9;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header{
+            margin-bottom: 35px;
+        }
+        
+        header div{
+            color: #777676;
+        }
+
+        .welcome{
+            font-size: 2rem;
+            font-weight: 500;
+        }
+
+        .GetStartedContent{
+            width: 50%;
+            text-align: center;
+            border-width: 1px;
+            border-style: solid ;
+            border-color: rgb(236, 236, 236);
+            padding: 15px 7px;
+        }
+
+        .GetStartedContent h3{
+            font-size: 17px;
+            color: #222;
+        }
+
+        .GetStartedContent span{
+            color: #6c6d6e;
+            font-size: 13px;
+            margin: 7px 0;
+            display: block;
+        }
+
+        .GetStartedContent a{
+            font-size: 14px;
+            color: #6880b7;
+        }
+
+        .GetStartedContent img{
+            width: 30px;
+            margin-bottom: 15px;
+            color: #353535;
+        }
+
+        .button{
+            padding: 10px 12px;
+            background-color: #fff;
+            border: 2px solid #6880b7;
+            color: #6880b7;
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+
+        .button:hover{
+            background-color: #6880b7;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .info{
+            background-color: #f7c052;
+            display: flex;
+            padding: 10px 15px;
+            color: #fff;
+        }
+
+        .info i{
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .info > div{
+            width: calc(100% / 3);
+            font-weight: 400;
+        }
+
+        .info > div > div{
+            text-align: center;
+        }
+
+        .info img{
+            width: 15px;
+        }
+
+        .social-sec{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .social{
+            display: flex;
+        }
+
+        .social a{
+            text-decoration: none;
+        }
+
+        .social div{
+            height: 38px;
+            width: 40px;
+            background-color: #cacbcd;
+            border-radius: 6px;
+            margin: 3px 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social div img{
+            width: 15px;
+            fill: green;
+        }
+    </style>
+</head>
+<body style="max-width: 500px; margin: 0 auto">
+    <header style="text-align: center;">
+        <img src="ridare-logo.png" width="90px" style="margin: 20px 0;"/>
+        <h1 class="welcome">Welcome</h1>
+        <h2 style="font-size: 14px; margin: 12px">We're happy happy to have you with us</h2>
+        <div>We teach classes in everything from business to medicine</div>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellendus hic consectetur .</div>
+    </header>
+
+    <div style="display: flex; justify-content: center; flex-direction: column; background-color: #ffffff; padding: 25px 12px">
+        <div style="text-align: center; color: #6880b7; font-size: 20px; margin-bottom: 25px">Here's how to get started</div>
+        <div style="display: flex; flex-wrap: wrap;">
+            <div class ="GetStartedContent" style="border-left-color: transparent; border-top-color: transparent">
+                <img src="icon/edit-solid.svg" />
+                <h3>Fill out a profile</h3>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellendus hic consectetur .</span>
+                <div><a href="#">Read more >></a></div>
+            </div>
+            <div class ="GetStartedContent" style="border-right-color: transparent; border-top-color: transparent">
+                <img src="icon/link-solid.svg"/>
+                <h3>Fill out a profile</h3>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellendus hic consectetur .</span>
+                <div><a href="#">Read more >></a></div>
+            </div>
+            <div class ="GetStartedContent" style="border-left-color: transparent; border-bottom-color: transparent">
+                <img src="icon/cog-solid.svg"/>
+                <h3>Fill out a profile</h3>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellendus hic consectetur .</span>
+                <div><a href="#">Read more >></a></div>
+            </div>
+            <div class ="GetStartedContent" style="border-right-color: transparent; border-bottom-color: transparent">
+                <img src="icon/user-solid.svg">
+                <h3>Fill out a profile</h3>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellendus hic consectetur .</span>
+                <div><a href="#">Read more >></a></div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 25px">
+            <a href="#"><button class="button">Let's get started >> </button></a>
+        </div>
+        
+    </div>
+    <div class="info">
+        <div>
+            <div><img style="width: 12px;" src="icon/map-marker-alt-solid.svg"></div>
+            <div>14 Norridgewock, Maine, 04957</div>
+        </div>
+        <div>
+            <div><img src="icon/envelope-solid.svg"></div>
+            <div>info@rider.com</div>
+        </div>
+        <div>
+            <div><img src="icon/phone-alt-solid.svg"></div>
+            <div>
+                <div>0-12345-6548522</div>
+                <div>0-12345-6548522</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-sec">
+        <div style="color: #848685; font-weight: bold;">Follow us:</div>
+        <div class="social">
+            <a href="#">
+                <div><img style="width: 10px" src="icon/facebook-f-brands.svg"></div>
+            </a>
+            <a href="#">
+                <div><img src="icon/instagram-brands.svg"></div>
+            </a>
+            <a href="#">
+                <div><img src="icon/twitter-brands.svg"></div>
+            </a>
+            <a href="#">
+                <div><img src="icon/youtube-brands.svg"></div>
+            </a>
+            <a href="#">
+                <div><img src="icon/linkedin-in-brands.svg"></div>
+            </a>
+        </div>
+    </div>
+
+    <div style="text-align: center; font-weight: bold; color: #848685; font-size: 14px; margin-bottom: 20px">
+        Contact us: 0-12345-6548522 | <a href="#" style="color: #848685">info@rider.com</a>
+    </div>
+
+    <div style="text-align: center; font-size: 13px; color: #848685; margin-bottom: 12px">
+        This daily newsletter was sent to <a href="#" style="color: #848685">info@adu.com </a>from company name because you subscribed, If you would not like to receive this email <a href="#" style="color: #848685">unsubscribe here</a>
+    </div>
+</body>
+</html>
